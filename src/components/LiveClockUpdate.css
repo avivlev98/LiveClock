@@ -1,0 +1,33 @@
+.live-clock {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 20px 0;
+}
+
+.live-clock__time {
+    display: flex;
+    align-items: baseline;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.live-clock__hours,
+.live-clock__minutes,
+.live-clock__seconds {
+    margin: 0 0.2rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.live-clock__period {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    color: #888;
+    align-self: flex-end;
+}
